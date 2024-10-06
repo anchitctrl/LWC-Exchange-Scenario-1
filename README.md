@@ -1,3 +1,19 @@
+In this LWC scenario, We are going to learn building complex Lightning Data table, Calling Apex Class, Using Lightning Tabset and Tabs, showing toast, handling errors etc.
+
+This problem statement has been designed for developer who has very good understanding in Lightning Web Component.
+
+Business want to see a consolidated view of pending approvals along with related record fields info. Standard Salesforce report and dashboard does not allows us to add related record object fields.
+
+Technical Architect suggested to write a Lightning Web Component with these features:-
+
+It should tab set to display approval records categorized based on related object
+Current Implementation has approval process on Opportunity, Account and Case
+Each row in data table should show approval step with pending status
+Opportunity Tab in tab set should show Stage, Amount & Type columns along with approval object fields column
+Account Tab in tab set should show Account Name, Email & Billing City columns along with approval object fields column
+Case Tab in tab set should show Subject, Related Account & Owner columns along with approval object fields column
+Business also wants to download the pending approval records as CSV file. Hence, We also require a download button in Lightning Web Component.
+
 ![image](https://github.com/user-attachments/assets/bb7606d6-a8bb-49f9-9ea8-0b40446a9174)
 
 
