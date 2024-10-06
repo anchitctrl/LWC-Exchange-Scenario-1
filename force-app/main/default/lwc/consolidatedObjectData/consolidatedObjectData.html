@@ -1,0 +1,28 @@
+<template>
+    <div class="mainComponent">
+        <button class="downloadButton" onclick={handleDownloadData}>Export Data to CSV</button>
+        <lightning-tabset>
+            <lightning-tab value="opportunity" onactive={handleActive} label="Opportunity Data">
+                <lightning-datatable
+                    key-field="Id"
+                    data={opportunityData}
+                    columns={opportunityColumns}>
+                </lightning-datatable>
+            </lightning-tab>
+            <lightning-tab value="account" onactive={handleActive} label="Account Data">
+                <lightning-datatable
+                    key-field="Id"    
+                    data={accountData}
+                    columns={accountColumns}>
+                </lightning-datatable>
+            </lightning-tab>
+            <lightning-tab value="case" onactive={handleActive} label="Case Data">
+                <lightning-datatable
+                    key-field="Id"
+                    data={caseData}
+                    columns={caseColumns}>
+                </lightning-datatable>
+            </lightning-tab>
+        </lightning-tabset>
+    </div>
+</template>

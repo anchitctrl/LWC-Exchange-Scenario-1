@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>getObjectData</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>LWC_Exchange_Scenarios</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>LWC_Exchange_Scenarios</members>
+		<members>LWC_Exchange_Scenarios_UtilityBar</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>consolidatedObjectData</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>60.0</version>
+</Package>
